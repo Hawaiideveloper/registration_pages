@@ -1,0 +1,274 @@
+    1  sudo reboot
+    2  ip add sh
+    3  sudo shutdown now
+    4  wget -qO - https://www.mongodb.org/static/pgp/server-4.4.asc | sudo apt-key add -
+    5  sudo apt-get install gnupg
+    6  wget -qO - https://www.mongodb.org/static/pgp/server-4.4.asc | sudo apt-key add -
+    7  echo "deb [ arch=amd64,arm64 ] https://repo.mongodb.org/apt/ubuntu bionic/mongodb-org/4.4 multiverse" | sudo tee /etc/apt/sources.list.d/mongodb-org-4.4.list
+    8  sudo apt-get update
+    9  sudo apt-get install -y mongodb-org
+   10  echo "mongodb-org hold" | sudo dpkg --set-selections
+   11  echo "mongodb-org-server hold" | sudo dpkg --set-selections
+   12  echo "mongodb-org-shell hold" | sudo dpkg --set-selections
+   13  echo "mongodb-org-mongos hold" | sudo dpkg --set-selections
+   14  echo "mongodb-org-tools hold" | sudo dpkg --set-selections
+   15  ps --no-headers -o comm 1
+   16  sudo systemctl start mongod
+   17  sudo systemctl status mongod
+   18  sudo sutdown now
+   19  sudo shutdown now
+   20  ls
+   21  show dbs
+   22  mongodb
+   23  ./mongodb
+   24  ./mongod
+   25  mongod
+   26  sudo systemctl status mongod
+   27  mongod
+   28  nano /etc/mongod.conf 
+   29  cat /var/log/mongodb/mongod.log
+   30  sudo cat /var/log/mongodb/mongod.log
+   31  sudo cat /var/log/mongodb/mongod.log | grep test
+   32  mongo
+   33  ls
+   34  cd data/
+   35  ls
+   36  cd ..
+   37  cd form-nodejs-mongodb/
+   38  ls
+   39  cd data/
+   40  LS
+   41  ls
+   42  cd ..
+   43  /var/
+   44  cd va
+   45  cd /var/
+   46  ls
+   47  cd opt/
+   48  ls
+   49  cd ..
+   50  ls
+   51  cd ..
+   52  ls
+   53  find mongo
+   54  find mongo .
+   55  find mongo . | grep mongo
+   56  cat /var/lib/mongodb/storage.bson
+   57  sudo cat /var/lib/mongodb/storage.bson
+   58  mongo
+   59  mkdir data
+   60  ip add sh
+   61  ls
+   62  echo 'mongod --bind_ip=$IP --dbpath=data --nojournal --rest "$@"' > mongod
+   63  chmod a+x mongod
+   64  npm init -y
+   65  sudo apt install npm
+   66  history
+   67  npm init -y
+   68  npm i --save express body-parser mongodb
+   69  git clone git@github.com:programmingmentor/form-nodejs-mongodb.git
+   70  git clone https://github.com/programmingmentor/form-nodejs-mongodb.git
+   71  ls
+   72  cd form-nodejs-mongodb/
+   73  ls
+   74  mkdir data
+   75  ls
+   76  npm install
+   77  npm init -y
+   78  npm i --save express body-parser mongodb
+   79  node start
+   80  node run
+   81  ls
+   82  ./mongod 
+   83  echo 'mongod --bind_ip=172.100.0.125 --dbpath=data --nojournal --rest "$@"' > mongod
+   84  ./mongod 
+   85  sudo systemctl status mongod
+   86  sudo systemctl start mongod
+   87  sudo systemctl status mongod
+   88  node run
+   89  npm run
+   90  node server
+   91  npm install
+   92  node app.js
+   93  sudo apt update
+   94  sudo apt-get update
+   95  sudo systemctl status mongod
+   96  sudo systemctl start mongod
+   97  sudo systemctl status mongod
+   98  clear
+   99  ls
+  100  cd form-nodejs-mongodb/
+  101  ls
+  102  cd ..
+  103  mongod --version
+  104  mongo
+  105  node app.js
+  106  ls
+  107  node app.js
+  108  cd form-nodejs-mongodb/
+  109  ls
+  110  cat app.js 
+  111  cd ..
+  112  ls
+  113  node app.js
+  114  cd form-nodejs-mongodb/
+  115  ls
+  116  cat app.js 
+  117  cd ..
+  118  exit
+  119  ls
+  120  cd form-nodejs-mongodb/
+  121  ls
+  122  nano app.js 
+  123  ls
+  124  cat app.js 
+  125  cd ..
+  126  mongo
+  127  sudo systemctl status mongod
+  128  ip add show
+  129  exit
+  130  docker
+  131  ls
+  132  cd form-nodejs-mongodb/
+  133  ls
+  134  cat app.js 
+  135  cd ..
+  136  mongo
+  137  node app.js
+  138  cd form-nodejs-mongodb/
+  139  ls
+  140  cat app.js 
+  141  node app.js
+  142  ip add show
+  143  mongod
+  144  ip add show
+  145  mongo
+  146  ls
+  147  clear
+  148  sudo shutdown now
+  149  sudo apt-get update
+  150  sudo apt-get remove docker docker-engine docker.io containerd runc
+  151  sudo apt-get update
+  152  sudo apt-get install     apt-transport-https     ca-certificates     curl     gnupg-agent     software-properties-common
+  153  curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo apt-key add -
+  154  sudo apt-key fingerprint 0EBFCD88
+  155  sudo add-apt-repository    "deb [arch=amd64] https://download.docker.com/linux/ubuntu \
+  156     $(lsb_release -cs) \
+  157     stable"
+  158  sudo apt-get update
+  159  sudo apt-get install docker-ce docker-ce-cli containerd.io
+  160  sudo docker run hello-world
+  161  sudo systemctl status mongod
+  162  sudo systemctl start mongod
+  163  sudo systemctl status mongod
+  164  sudo shutdown now
+  165  ip add sh
+  166  mongo
+  167  sudo systemctl status mongod
+  168  sudo systemctl start mongod
+  169  mongo
+  170  sudo shutdown now
+  171  ls
+  172  cd form-nodejs-mongodb/
+  173  ls
+  174  nano app.js 
+  175  cd public/
+  176  ls
+  177  nano index.html 
+  178  ls
+  179  mkdir css
+  180  ls
+  181  ssh ervinmg@172.100.0.135
+  182  ls
+  183  exit
+  184  ssh ervinmg@172.100.0.128
+  185  ls
+  186  cd form-nodejs-mongodb/
+  187  ls
+  188  cd public/
+  189  ls
+  190  cd css/
+  191  scp ervinmg@172.100.0.128:/home/ervinmg/Documents/bluSky/css/ .
+  192  scp -r ervinmg@172.100.0.128:/home/ervinmg/Documents/bluSky/css/ .
+  193  ls
+  194  cd css/
+  195  ls
+  196  mv * ../
+  197  ls
+  198  cd ..
+  199  ls
+  200  cd ..
+  201  ls
+  202  nano index.html 
+  203  ping cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css
+  204  ping cdnjs.cloudflare.com
+  205  wget cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css
+  206  ls
+  207  mv font-awesome.min.css css/
+  208  ls
+  209  nano index.html 
+  210  cd css/
+  211  ls
+  212  cd css/
+  213  ls
+  214  cd ..
+  215  ls
+  216  rm css
+  217  rmdir css/
+  218  ls
+  219  cd css/
+  220  ls
+  221  cd ..
+  222  ls
+  223  cd ..
+  224  ls
+  225  cd css/
+  226  ls
+  227  cd ..
+  228  ls
+  229  cat index.html 
+  230  ls
+  231  nano index.html 
+  232  ls
+  233  cat index.html 
+  234  ls
+  235  nano index.html 
+  236  ls
+  237  cd css/
+  238  ls
+  239  nano register.css 
+  240  ls
+  241  cat register.css 
+  242  cd ..
+  243  ls
+  244  cd ..
+  245  ls
+  246  cd public/
+  247  ls
+  248  nano index.html 
+  249  ls
+  250  cat index.html 
+  251  nano index.html 
+  252  cat index.html 
+  253  ls
+  254  cd css
+  255  ls
+  256  cat main_blueSky.css 
+  257  cd ..
+  258  ls
+  259  mkdir images
+  260  cd images/
+  261  ls
+  262  scp -r ervinmg@172.100.0.128:/home/ervinmg/Documents/bluSky/images .
+  263  ls
+  264  cd images/
+  265  ls
+  266  mv * ../
+  267  ls
+  268  cd ..
+  269  ls
+  270  cd ..
+  271  ls
+  272  cd ..
+  273  touch commands
+  274  history >> commands 
