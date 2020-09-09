@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="es">
+<head>
+    <link rel="icon" href="images/favicon-16x16.png">
+    <link rel="icon" href="images/favicon-32x32.png">
+    <link rel="icon" href="images/favicon-96x96.png">
+    <title>Registro para evento de bikini bluSky</title>
+</head>
+<link rel="stylesheet" href="/css/register.css">
+<link rel="stylesheet" href="css/font-awesome.min.css">
+<link rel="stylesheet" href="css/main_blueSky.css">
+<link rel="stylesheet" href="css/video_position.css">
+<link rel="stylesheet" href="css/columns.css">
+<link rel="stylesheet" href="css/video_cropping.css">
+<link rel="stylesheet" href="css/queryformobile.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+<body>
+  <div class="topnav">
+    <a href="#home" class="active">
+      <img src="images/LogoBluSkyTRansp.png" width="150px" height="30px">
+    </a>
+    <div id="myLinks">
+      <a href="scripts/registro.html">Registro</a>
+      <a href="http://ec2-52-15-192-90.us-east-2.compute.amazonaws.com/scripts/Locationmap.html">Ubicación</a>
+      <a href="http://ec2-52-15-192-90.us-east-2.compute.amazonaws.com/scripts/eventos.html">Eventos</a>
+      <a href="https://api.whatsapp.com/send?phone=50584484661">Contacto</a>
+    </div>
+    <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+      <i class="fa fa-bars"></i>
+    </a>
+  </div>
+
+  <script>
+    function myFunction() {
+      var x = document.getElementById("myLinks");
+      if (x.style.display === "block") {
+        x.style.display = "none";
+      } else {
+        x.style.display = "block";
+      }
+    }
+  </script>
+
+    <h1>Por favor complete el siguiente formulario:</h1>
+    <form method="POST" action="/post-feedback">
+        <label>Nombre:<input type="text" name="client-name" required></label>
+        <br>
+        <label>Correo electronico:<input type="text" name="client-email" required></label>
+        <br>
+        <label>Comentario:<br><textarea name="comment"></textarea></label>
+        <br>
+ 
+<label>Nombre2:<input type="text" name="client-name2" required></label>
+        <br>
+        <label>Correo electronico2:<input type="text" name="client-email2" required></label>
+        <br>
+        <label>Comentario2:<br><textarea name="comment2"></textarea></label>
+        <br>
+
+        <input type="submit" value="Submit">
+    </form>
+    <a href="/view-feedbacks">View feedbacks</a>
+</body>
+</html>

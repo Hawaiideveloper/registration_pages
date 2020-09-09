@@ -1,8 +1,8 @@
 {
-  "name": "ervin",
+  "name": "form-sample",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "In this tutorial we will create simple form that will save user data to server implemented in Node.js with MongoDB database and allow us to see saved data on a separate page in JSON format.",
+  "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -12,6 +12,15 @@
   "dependencies": {
     "body-parser": "^1.19.0",
     "express": "^4.17.1",
-    "mongodb": "^3.6.1"
-  }
+    "mongodb": "^2.2.36"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/programmingmentor/form-nodejs-mongodb.git"
+  },
+  "bugs": {
+    "url": "https://github.com/programmingmentor/form-nodejs-mongodb/issues"
+  },
+  "homepage": "https://github.com/programmingmentor/form-nodejs-mongodb#readme"
 }

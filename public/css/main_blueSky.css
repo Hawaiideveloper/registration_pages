@@ -1,0 +1,142 @@
+/* This is a comment in CSS format */
+/* We no longer use the carousel */
+
+body {
+  /* position: relative;    <!-- https://cssgradient.io/ is where we got the colored background--> */
+  
+  background: linear-gradient(90deg, rgb(0, 0, 0) 0%, rgb(0, 0, 0) 8%, rgb(54, 117, 189) 100%);
+  overflow: hidden;
+  /* Hide scrollbars */
+  width: 100%;
+  margin: 0;
+  padding: 0;
+
+}
+
+
+
+.copyright {
+  position: fixed;
+  left: 0;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  background-color: rgba(12, 15, 1, 0.123);
+  color: rgb(255, 255, 255);
+  text-align: center;
+  z-index: 27;
+}
+
+.footer {
+  position: fixed;
+  padding: 1px;
+  margin: 0;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: red;
+  color: white;
+  text-align: center;
+  z-index: 27;
+  /*Posicion del footer sobre todo*/
+}
+
+/*
+  #section1 {padding-top:50px;height:500px;color: #fff; background-color: #1E88E5;}
+  #section2 {padding-top:50px;height:500px;color: #fff; background-color: #3b8d1a;}
+  #section3 {padding-top:50px;height:500px;color: #fff; background-color: #ff9800;}
+  #section41 {padding-top:50px;height:500px;color: #fff; background-color: #f31111;}
+  #section42 {padding-top:50px;height:500px;color: #fff; background-color: #009688;}
+  */
+
+
+button.skip {
+  position: relative;
+  background-color: #8c9cbf;
+  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #8c9cbf), color-stop(50%, #546a9e), color-stop(50%, #36518f), color-stop(100%, #3d5691));
+  background-image: -webkit-linear-gradient(top, #8c9cbf 0%, #546a9e 50%, #36518f 50%, #3d5691 100%);
+  background-image: -moz-linear-gradient(top, #8c9cbf 0%, #546a9e 50%, #36518f 50%, #3d5691 100%);
+  background-image: -ms-linear-gradient(top, #8c9cbf 0%, #546a9e 50%, #36518f 50%, #3d5691 100%);
+  background-image: -o-linear-gradient(top, #8c9cbf 0%, #546a9e 50%, #36518f 50%, #3d5691 100%);
+  background-image: linear-gradient(top, #8c9cbf 0%, #546a9e 50%, #36518f 50%, #3d5691 100%);
+  border: 1px solid #172d6e;
+  border-bottom: 1px solid #0e1d45;
+  border-radius: 5px;
+  -webkit-box-shadow: inset 0 1px 0 0 #b1b9cb;
+  box-shadow: inset 0 1px 0 0 #b1b9cb;
+  color: #fff;
+  font: bold 100% "helvetica neue", helvetica, arial, sans-serif;
+  text-decoration: none;
+  text-align: center;
+  text-shadow: 0 -1px 1px #000f4d;
+  padding: 5%;
+  width: 100%;
+  z-index: 30;
+}
+
+/*Estos son los estilos del menu*/
+.topnav {
+  overflow: hidden;
+  position: relative;
+  z-index: 50;
+}
+
+.topnav #myLinks {
+  display: none;
+  z-index: 50;
+}
+
+.topnav a {
+  color: white;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  display: block;
+  height: 30%;
+  z-index: 50;
+}
+
+.topnav a.icon {
+  background: black;
+  display: block;
+  position: absolute;
+
+  right: 0;
+  top: 0;
+width:10%;
+height:100%;
+  z-index: 50;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+  z-index: 50;
+}
+
+.active {
+  background: rgb(2, 0, 36);
+  background: linear-gradient(156deg, rgba(2, 0, 36, 1) 39%, rgba(9, 95, 121, 0.31556372549019607) 52%, rgba(0, 212, 255, 0.861782212885154) 66%);
+  color: white;
+  height: 75px;
+  z-index: 50;
+}
+
+.contador_edit{
+  position: absolute;
+  display: inline-block;
+  transform: scale(0.7);
+  right: 0;
+  bottom: 0;
+  margin: 0;
+  padding: 0;
+z-index: 100;
+  
+}
+
+.topnav img{
+ position: relative;
+ height:70px;
+
+}
