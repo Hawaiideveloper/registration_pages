@@ -1,1 +1,5 @@
+<<<<<<< HEAD
 mongod --bind_ip=172.100.0.125 --dbpath=data --nojournal --rest "$@"
+=======
+mongod --bind_ip=$IP --dbpath=data --nojournal --rest "$@"
+>>>>>>> fad11d1643c3ab146bb85a2af3315a4334d1b94c
