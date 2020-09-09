@@ -1,0 +1,24 @@
+* {
+  box-sizing: border-box;
+}
+
+/* Create three equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 13%;
+  position: absolute;
+  left: 85%;
+  bottom: 62%;
+  /*column space of submit button
+  */
+  height: 30%;
+  z-index: 30;
+  /* Should be removed. Only for demonstration */
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}

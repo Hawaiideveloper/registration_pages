@@ -1,0 +1,79 @@
+@media screen and (max-width:450px) {/*A 450 px de ancho
+    queremos que las clases tengan un efecto de tamaño y posicion*/
+    Video {
+        height: 100%;
+        top: 0;
+    }
+
+    .column {
+        left: 58%;
+        width: 35%;
+    }
+
+}
+
+/*
+dise;o responsive cuando sea en movil para registro base de datos por el momento.
+*/
+
+body{
+    width:100%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.8rem;
+    padding: 0;
+    margin: 0;
+}
+
+
+input[type=text] {
+    width: 50%;
+    font-size: 4rem;
+
+}
+
+textarea {
+    width: 40%;
+    font-size: 2rem;
+
+}
+
+
+input[type=date] {
+    width: 40%;
+    font-size: 4rem;
+
+}
+
+input[type=file] {
+    /*nos referimos exactamente a un tipo de input*/
+    width: 100%;
+    font-size: 2.7rem;
+}
+
+input[type=checkbox] {
+    transform: scale(4.3);
+    /*Podemos manipular el tamaño de la checkbox*/
+    margin: 2%;
+
+}
+
+.textoup {
+    margin: 0;
+    font-size: 2rem;
+}
+.leerTerminos{
+    color: white;
+    font-size: 2.2rem;
+}
+
+.submit{
+    margin: 1%;
+}
+label{
+    width: auto;
+}
+
+form{
+ font-size:2.6rem;
+ margin: 5px;
+}

@@ -1,0 +1,45 @@
+  body {
+    font-family: Arial;
+    font-size: 100%;
+    z-index: 0;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+  }  
+  .content {
+    position: relative;
+    top: 0;
+    background: rgba(31, 1, 26, 0.521);
+    color: #f1f1f1;
+    width: 100%;
+    z-index: 25; 
+  }
+  .content img{
+    position: relative;
+    margin: 2%;
+  }
+  
+  button {
+    position: relative;
+    display: inline-block;
+    background-color: rgba(42, 149, 199, 0.548);
+    color: rgba(255, 255, 255, 0.966);
+    outline: none;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    font: 1.2%/100% Arial, Helvetica, sans-serif;
+    padding: .5em 2em .55em;
+    width: 100%;
+    -webkit-border-radius: .5em; 
+    -moz-border-radius: .5em;
+    border-radius: .5em;
+    -webkit-box-shadow: 0 1px 2px rgba(0,0,0,.2);
+    -moz-box-shadow: 0 1px 2px rgba(0,0,0,.2);
+    box-shadow: 0 1px 2px rgba(100, 71, 71, 0.2);
+    z-index: 30;
+  }
+  .button:hover {
+    text-decoration: none;
+  }
+  
