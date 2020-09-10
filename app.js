@@ -18,6 +18,14 @@ app.post('/post-feedback', function (req, res) {
     res.send('Data received:\n' + JSON.stringify(req.body));
 });
 
+
+app.get('/', function (req, res) {
+  res.send('hello world')
+})
+
+
+
+/*
 app.get('/view-feedbacks',  function(req, res) {
     dbConn.then(function(db) {
         db.collection('feedbacks').find({}).toArray().then(function(feedbacks) {
@@ -25,5 +33,12 @@ app.get('/view-feedbacks',  function(req, res) {
         });
     });
 });
+*/
+
+
+app.get('/', function (req, res) {
+  res.send('hello world')
+})
+
 
 app.listen(process.env.PORT || 3000, process.env.IP || '0.0.0.0' );

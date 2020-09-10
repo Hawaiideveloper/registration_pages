@@ -22,7 +22,7 @@
       <img src="images/LogoBluSkyTRansp.png" width="150px" height="30px">
     </a>
     <div id="myLinks">
-      <a href="scripts/registro.html">Registro</a>
+      <a href="http://ec2-3-137-158-22.us-east-2.compute.amazonaws.com:3000">Registro</a>
       <a href="http://ec2-52-15-192-90.us-east-2.compute.amazonaws.com/scripts/Locationmap.html">Ubicación</a>
       <a href="http://ec2-52-15-192-90.us-east-2.compute.amazonaws.com/scripts/eventos.html">Eventos</a>
       <a href="https://api.whatsapp.com/send?phone=50584484661">Contacto</a>
@@ -47,20 +47,19 @@
     <form method="POST" action="/post-feedback">
         <label>Nombre:<input type="text" name="client-name" required></label>
         <br>
-        <label>Correo electronico:<input type="text" name="client-email" required></label>
+        <label>Apellido:<input type="text" name="client-lastname" required></label>
         <br>
-        <label>Comentario:<br><textarea name="comment"></textarea></label>
+        <label>Correo electronico:<br><textarea name="email"></textarea></label>
         <br>
  
-<label>Nombre2:<input type="text" name="client-name2" required></label>
+<label>Número de Teléfono:<input type="text" name="client-number" required></label>
         <br>
-        <label>Correo electronico2:<input type="text" name="client-email2" required></label>
+        <label>Como te enteraste de nosotras:<input type="text" name="where-they-found-us" required></label>
         <br>
-        <label>Comentario2:<br><textarea name="comment2"></textarea></label>
+        <label>Comentario:<br><textarea name="comment"></textarea></label>
         <br>
 
         <input type="submit" value="Submit">
     </form>
-    <a href="/view-feedbacks">View feedbacks</a>
 </body>
 </html>
