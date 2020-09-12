@@ -1,1 +1,1 @@
-# *En esta carpeta estaran todas las fotos de los trabajadores y las fotos del areadonde se realiza los eventos.*
+# *En esta carpeta estaran todas las fotos de los trabajadores y las fotos del area donde se realiza los eventos.*
